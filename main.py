@@ -60,11 +60,3 @@
 #         print(elemen, end=" ")
 #     print()
 
-print("\n=== Latihan 8 ===")
-nilai_siswa = [[80, 75, 90], [65, 70, 72], [88, 92, 95]]
-for i in range(len(nilai_siswa)):
-    total = 0
-    for mapel in nilai_siswa[i]:
-        total += mapel
-    rata_rata = total / len(nilai_siswa[i])
-    print(f"Siswa ke-{i + 1}: total = {total}, rata-rata = {round(rata_rata, 2)}")
